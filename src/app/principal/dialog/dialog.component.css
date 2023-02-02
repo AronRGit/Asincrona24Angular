@@ -1,0 +1,37 @@
+.sectionGeneral{
+
+    align-items: center;
+    justify-content: center;
+    display: block;
+    flex: wrap;
+
+    padding-top: 10rem;
+
+    background: #fffbd5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ee6c4e, #fffbd5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #e78554, #fffbd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+height: 100vh;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+span, ul {
+    text-align: center;
+}
+
+p{
+    font-size: 40px;
+}
+
+span {
+    display: inline-block;
+    margin-bottom: 10px;
+    padding-top: 20px;
+
+}

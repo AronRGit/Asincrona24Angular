@@ -1,0 +1,47 @@
+.sectionGeneral{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex: wrap;
+
+    background: #dd3e54;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #6be585, #5bee47);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #6be585, #52ee81); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+height: 100vh;
+}
+
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1rem;
+    font-weight: bolder;
+
+}
+.sectionImagen{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex: wrap;
+
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+img{
+    width: 8rem;
+}
+
+.sectionButton{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex: wrap;
+
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.sectionTextarea{
+    margin-top: 5rem;
+}

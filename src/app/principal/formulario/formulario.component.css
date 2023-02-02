@@ -1,0 +1,55 @@
+.sectionGeneral{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex: wrap;
+
+    background: #8bf3aa;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, rgb(210, 248, 135), #e1eec3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #e1ff90, #90f9a0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    height: 100vh;
+}
+
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1rem;
+    font-weight: bolder;
+
+}
+.sectionImagen{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex: wrap;
+
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+img{
+    width: 8rem;
+}
+
+.sectionForm{
+    align-items: center;
+    justify-content: center;
+    display: block;
+    flex: wrap;
+
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.sectionButton{
+    text-align: center;
+}
+
+.sectionMat{
+    width: 30rem;
+}
+
+mat-form-field{
+    width: 30rem;
+}
